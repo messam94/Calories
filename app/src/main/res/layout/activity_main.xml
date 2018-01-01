@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@drawable/orange"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.btngan.calories.MainActivity">
+
+    <TextView
+        android:textColor="#06410a"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:text="اعرف سعراتك"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="#c0f2e8"
+        android:layout_marginTop="50dp"
+        android:id="@+id/vegetables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" خضار و فاكهه"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="#c0f2e8"
+        android:id="@+id/dairy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vegetables"
+        android:text="البان"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="#c0f2e8"
+        android:id="@+id/meat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dairy"
+        android:text="لحوم"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="#c0f2e8"
+        android:id="@+id/seafood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/meat"
+        android:text="اسماك"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="#c0f2e8"
+        android:id="@+id/nuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seafood"
+        android:text="مكسرات"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="#c0f2e8"
+        android:id="@+id/beans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nuts"
+        android:text="بقوليات"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="#c0f2e8"
+        android:id="@+id/others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beans"
+        android:text="اخرى"/>
+    <TextView
+        android:layout_below="@id/others"
+        android:textColor="#06410a"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="ملحوظه:السعرات لكل 100 جرام"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
